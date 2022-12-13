@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    background-color: #10131C;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*
+    -- General Styles --
+*/
+
+body {
+    display: flex;
+    align-items: center;
+    height: 400vh;
+    justify-content: center;
+}
+
+.title_defull {
+    font-size: 80px;
+    color: white;
+}
+
+::-webkit-scrollbar
+{
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(to bottom, #ff850a,#ff3434);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-track 
+{
+    transition: 2s;
+    background-color: #10131C;
+    
+}
+::-webkit-scrollbar-track:hover
+{
+    transition: 2s;
+    background-color: #272c3d;
+    
+    
+}
